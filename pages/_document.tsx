@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Barly's Portfolio</title>
+                    <title>Barly&apos;s Portfolio</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Vollkorn+SC&display=swap"
@@ -18,6 +18,7 @@ class MyDocument extends Document {
                           people my personal portfolio. I hope you can enjoy it!"
                     />
                     <meta property="og:locale" content="en_US"/>
+                    <meta property="og:site_name" content="barlydjaja.com"/>
                 </Head>
                 <body className={'bg-gradient-to-r from-green to-blue-400'}>
                 <Main/>
