@@ -1,12 +1,11 @@
 import React from 'react';
 import {AiFillGithub, AiFillLinkedin, AiFillYoutube} from "react-icons/ai";
 import {GoLocation} from 'react-icons/go'
-import Image from 'next/image'
 
 const MyComponent = () => {
     return (
         <div>
-            <Image
+            <img
                 src='https://media-exp1.licdn.com/dms/image/C5603AQHG-LusfwucIQ/profile-displayphoto-shrink_200_200/0/1606703098921?e=1648080000&v=beta&t=VTStf0f42eHZYQNJ4QbcSxHqd9DCgWOmc-HlgYefaJo'
                 alt={'avatars'}
                 loading={'lazy'}
