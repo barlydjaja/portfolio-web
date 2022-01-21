@@ -18,7 +18,6 @@ class MyDocument extends Document {
                           people my personal portfolio. I hope you can enjoy it!"
                     />
                     <meta property="og:locale" content="en_US"/>
-                    <meta property="og:site_name" content="barlydjaja.com"/>
                 </Head>
                 <body className={'bg-gradient-to-r from-green to-blue-400'}>
                 <Main/>
