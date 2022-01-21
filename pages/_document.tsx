@@ -5,13 +5,13 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <title>Barly's Portfolio</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Vollkorn+SC&display=swap"
                           rel="stylesheet"/>
-                    <title>Barly's Portfolio</title>
                     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-                    <meta property="og:title" content="Barly's Portfolio"/>
+                    <meta property="og:title" content="Barly's Portfolio" key={'title'}/>
                     <meta name="description"
                           content="I'm a Frontend Developer. I have been working for more than 2 years now in Frontend
                           development. I'm using ReactJs and VueJs on daily basis at work. This website is created to show
