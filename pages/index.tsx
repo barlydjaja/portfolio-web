@@ -10,14 +10,14 @@ const index = () => {
                 development. I&apos;m using ReactJs and VueJs on daily basis at work. This website is created to show
                 people my personal portfolio. I hope you can enjoy it!
             </h5>
-            <div className={'p-4 mt-5 bg-gray-400 flex-grow'} style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
+            <div className={'p-4 mt-5 bg-gray-400 flex-grow dark:bg-zinc-800'} style={{marginLeft: '-1.5rem', marginRight: '-1.5rem'}}>
                 <h6 className={'my-3 font-bold text-xl tracking-wide'}>
                     What I Offer
                 </h6>
                 <div className={'grid lg:grid-cols-2 gap-6'}>
                     {
                         services.map((service) =>
-                            <div key={service.title} className={'lg:col-span-1 bg-gray-200 rounded-lg'}>
+                            <div key={service.title} className={'lg:col-span-1 bg-gray-200 rounded-lg dark:bg-slate-900'}>
                                 <ServiceCard service={service}/>
                             </div>
                         )
