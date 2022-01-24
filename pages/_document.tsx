@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Barly Djaja - FullStack Developer</title>
+                    <title>Barly Djaja - Frontend Developer</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Vollkorn+SC&display=swap"
@@ -13,7 +13,7 @@ class MyDocument extends Document {
                     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
                     <meta property="og:title" content="Barly's Portfolio" key={'title'}/>
                     <meta name="description"
-                          content="I'm a Frontend Developer. I have been working for more than 2 years now in Frontend
+                          content="I'm a FullStack Developer. I have been working for more than 2 years now in Frontend
                           development. I'm using ReactJs and VueJs on daily basis at work. This website is created to show
                           people my personal portfolio. I hope you can enjoy it!"
                     />
