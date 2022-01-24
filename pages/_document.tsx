@@ -5,7 +5,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Barly Portfolio</title>
+                    <title>Barly Djaja - FullStack Developer</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Vollkorn+SC&display=swap"
