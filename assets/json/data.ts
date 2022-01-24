@@ -1,7 +1,8 @@
 import {RiComputerLine} from "react-icons/ri";
 import {FaServer} from "react-icons/fa";
 import {AiOutlineApi, AiOutlineConsoleSql} from "react-icons/ai";
-import {IServices} from "../../type/type";
+import {IServices, ISkill} from "../../type/type";
+import {BsCircleFill} from "react-icons/bs";
 
 export const services: IServices[] = [
     {
@@ -24,4 +25,90 @@ export const services: IServices[] = [
         about: 'I have tried both SQL and NoSQL for database and deployed it to server <br/><b>SQL:</b> PostgreSQL, MySQL<br/> <b>NoSQL:</b> MongoDb',
         Icon: AiOutlineConsoleSql,
     }
+]
+
+export const languages: ISkill[] = [
+    {
+        name: 'HTML',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'CSS',
+        level: '87%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'JavaScript',
+        level: '85%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'TypeScript',
+        level: '70%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'CSS Preprocessor',
+        level: '85%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Go',
+        level: '65%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Python',
+        level: '60%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'SQL',
+        level: '50%',
+        Icon: BsCircleFill
+    }
+]
+
+export const frameworks: ISkill[] = [
+    {
+        name: 'ReactJs',
+        level: '85%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'VueJs',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'NextJs',
+        level: '80%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'NuxtJs',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Material UI',
+        level: '70%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Element UI',
+        level: '90%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'TailwindCSS',
+        level: '70%',
+        Icon: BsCircleFill
+    },
+    {
+        name: 'Framer Motion',
+        level: '70%',
+        Icon: BsCircleFill
+    },
 ]

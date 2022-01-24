@@ -3,7 +3,7 @@ import Document, {Head, Html, Main, NextScript} from 'next/document'
 class MyDocument extends Document {
     render() {
         return (
-            <Html>
+            <Html lang={'en'}>
                 <Head>
                     <title>Barly Djaja - Frontend Developer</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -20,7 +20,7 @@ class MyDocument extends Document {
                     <meta property="og:locale" content="en_US"/>
                     <meta property="og:site_name" content="barlydjaja.com"/>
                 </Head>
-                <body className={'bg-gradient-to-r from-green to-blue-400'}>
+                <body className={'bg-gradient-to-r from-green to-blue-400 dark:from-dark dark:to-dark-400 dark:text-white'}>
                 <Main/>
                 <NextScript/>
                 </body>
