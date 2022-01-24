@@ -21,7 +21,7 @@ export const services: IServices[] = [
     },
     {
         title: 'Database',
-        about: '<b>SQL:</b> PostgreSQL, MySQL<br/> <b>NoSQL:</b> MongoDb',
+        about: 'I have tried both SQL and NoSQL for database and deployed it to server <br/><b>SQL:</b> PostgreSQL, MySQL<br/> <b>NoSQL:</b> MongoDb',
         Icon: AiOutlineConsoleSql,
     }
 ]
