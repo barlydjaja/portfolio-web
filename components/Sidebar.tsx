@@ -54,11 +54,11 @@ const MyComponent = () => {
             </button>
             <div className={'flex justify-around items-center my-2'}>
                 <label className={`${styles.switch}`} id={'theme-switch'}>
-                    <input type="checkbox" onClick={changeTheme}/>
+                    <input type="checkbox" onChange={changeTheme} checked={theme === 'dark'}/>
                     <span className={`${styles.slider} ${styles.round}`}/>
                 </label>
-                {theme === 'dark' && <span id={'theme-switch'} className={'text-white font-bold'}>Light Theme</span>}
-                {theme === 'light' && <span id={'theme-switch'} className={'font-bold'}>Dark Theme</span>}
+                {theme === 'dark' && <span className={'text-white font-bold'}>Light Theme</span>}
+                {theme === 'light' && <span className={'font-bold'}>Dark Theme</span>}
             </div>
         </div>
     );

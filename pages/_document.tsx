@@ -5,12 +5,10 @@ class MyDocument extends Document {
         return (
             <Html lang={'en'}>
                 <Head>
-                    <title>Barly Djaja - Frontend Developer</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/>
                     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Vollkorn+SC&display=swap"
                           rel="stylesheet"/>
-                    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
                     <meta property="og:title" content="Barly's Portfolio" key={'title'}/>
                     <meta name="description"
                           content="I'm a FullStack Developer. I have been working for more than 2 years now in Frontend

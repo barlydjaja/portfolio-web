@@ -1,10 +1,15 @@
 import React from 'react';
 import {services} from "../assets/json/data";
 import ServiceCard from "../components/ServiceCard";
+import Head from "next/head";
 
 const index = () => {
     return (
         <div className={'flex flex-col px-6 pt-1 flex-grow'}>
+            <Head>
+                <title>Barly Djaja | Frontend Developer</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
             <h5 className={'my-3 font-medium'}>
                 I&apos;m a FullStack Developer. I have been working for more than 2 years now in Frontend
                 development. I&apos;m using ReactJs and VueJs on daily basis at work. This website is created to show
