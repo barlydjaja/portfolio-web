@@ -10,5 +10,5 @@ export interface INavItem {
 export interface IServices {
     title: string
     about: string
-    icon: IconType
+    Icon: IconType
 }
