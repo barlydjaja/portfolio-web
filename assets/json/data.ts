@@ -1,7 +1,7 @@
 import {RiComputerLine} from "react-icons/ri";
 import {FaServer} from "react-icons/fa";
 import {AiOutlineApi, AiOutlineConsoleSql} from "react-icons/ai";
-import {IServices, ISkill} from "../../type/type";
+import {IProject, IServices, ISkill} from "../../type/type";
 import {BsCircleFill} from "react-icons/bs";
 
 export const services: IServices[] = [
@@ -111,4 +111,43 @@ export const frameworks: ISkill[] = [
         level: '70%',
         Icon: BsCircleFill
     },
+]
+
+export const projects: IProject[] = [
+    {
+        name: 'Portfolio Website',
+        category: ['React'],
+        deployed_url: 'https://barlydjaja.com',
+        description: 'This is my personal portfolio website. You can view part of my work here',
+        github_url: 'https://github.com/barlydjaja/portfolio-web',
+        image_path: 'portfolio.PNG',
+        tags: ['NextJS', 'TailwindCSS', 'Framer Motion', 'TypeScript'],
+    },
+    {
+        name: 'Koranovel',
+        category: ['React'],
+        deployed_url: 'https://master.d6oquw9uhr0gb.amplifyapp.com/',
+        description: 'I created this website for my girlfriend. She is a writer',
+        github_url: 'https://github.com/barlydjaja/koranovel',
+        image_path: 'koranovel.PNG',
+        tags: ['NextJS', 'Bootstrap'],
+    },
+    {
+        name: 'React Template',
+        category: ['React'],
+        deployed_url: 'https://template-react.barlydjaja.com',
+        description: 'This is a generic React Template.I build this from scratch using webpack, babel, SCSS, ESlint, and Typescript',
+        github_url: 'https://github.com/barlydjaja/QUIZ-APP',
+        image_path: 'react-template.PNG',
+        tags: ['ReactJs', 'SCSS','ESLint', 'TypeScript'],
+    },
+    {
+        name: 'Profiles Rest API',
+        category: ['Python', 'Database'],
+        deployed_url: 'https://github.com/barlydjaja/profiles-rest-api',
+        description: 'This is a generic Quiz App. The difference tho, I build this from scratch using webpack, babel, and typescript',
+        github_url: 'https://github.com/barlydjaja/profiles-rest-api',
+        image_path: 'profile-app.PNG',
+        tags: ['Django', 'django-rest-framework', 'PostgreSql'],
+    }
 ]
