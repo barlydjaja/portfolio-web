@@ -12,7 +12,7 @@ const Navbar = () => {
             if (pathname === '/') setState('About')
             if (pathname === '/projects') setState('Projects')
             if (pathname === '/resume') setState('Resume')
-    }, [])
+    }, [pathname])
 
     return (
         <div className={'flex justify-between px-5 py-3 my-3'}>

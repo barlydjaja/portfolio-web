@@ -9,8 +9,8 @@ const Projects = () => {
             <div className={'grid grid-cols-12 gap-4 my-3 relative'}>
                 {
                     projects.map(project => (
-                        <div className={'col-span-12 sm:col-span-6 lg:col-span-4 p-2 bg-gray-200 dark:bg-dark-400 rounded-lg'}>
-                            <ProjectCard {...project} key={project.name}/>
+                        <div className={'col-span-12 sm:col-span-6 lg:col-span-4 p-2 bg-gray-200 dark:bg-dark-400 rounded-lg'} key={project.name}>
+                            <ProjectCard {...project}/>
                         </div>
                     ))
                 }
